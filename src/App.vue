@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div> 
+  <WebViewer url="https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf"/></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WebViewer from "./components/WebViewer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    WebViewer,
+  },
+};
 </script>
 
 <style>
